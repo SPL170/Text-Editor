@@ -4,7 +4,8 @@ When saving a file, no ‘.’ or ‘/’ or ‘“”’ in the filename.
 
 If running commands multiple times, the status, error, and any databases that were created must be deleted before each run.
 
-When opening a file to be run, any quotation marks in the file must be re-typed in the SQL Command editor in order to have the “correct” quotation marks.
+When opening a file to be run, any quotation marks in the file must be re-typed in the SQL Command editor in order to have the
+“correct” quotation marks.
 
 If a command is incorrectly entered and execution does not properly finish, the new TempFile must be deleted before anymore running
 
