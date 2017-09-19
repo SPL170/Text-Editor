@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="614.0" prefWidth="749.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+  <children>
+    <TextArea fx:id="textArea" layoutX="257.0" layoutY="67.0" prefHeight="150.0" prefWidth="463.9999000000025" wrapText="true" />
+    <TreeView fx:id="treeView" layoutX="25.0" layoutY="67.0" prefHeight="522.0" prefWidth="200.0" />
+    <MenuButton id="helpMenuButton" layoutX="156.0" layoutY="24.0" mnemonicParsing="false" prefWidth="69.0" text="Help">
+      <items>
+        <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="About" />
+      </items>
+    </MenuButton>
+    <MenuButton id="fileMenuButton" layoutX="25.0" layoutY="24.0" mnemonicParsing="false" prefWidth="62.0" text="File">
+      <items>
+        <MenuItem fx:id="openMenuItem" mnemonicParsing="false" text="Open SQL script" />
+        <MenuItem fx:id="runMenuItem" mnemonicParsing="false" text="Run SQL script" />
+        <MenuItem fx:id="saveMenuItem" mnemonicParsing="false" text="Save SQL script" />
+      </items>
+    </MenuButton>
+    <MenuButton id="editMenuButton" layoutX="93.0" layoutY="24.0" mnemonicParsing="false" text="Edit">
+      <items>
+        <MenuItem fx:id="copyMenuItem" mnemonicParsing="false" text="Copy" />
+        <MenuItem fx:id="pasteMenuItem" mnemonicParsing="false" text="Paste" />
+        <MenuItem fx:id="prefMenuItem" mnemonicParsing="false" text="Preferences" />
+      </items>
+    </MenuButton>
+    <Button fx:id="allCom" layoutX="257.0" layoutY="24.0" mnemonicParsing="false" text="" />
+    <Button fx:id="oneCom" layoutX="307.0" layoutY="24.0" mnemonicParsing="false" text="" />
+    <Button id="sweep" fx:id="sweepCom" layoutX="357.0" layoutY="24.0" mnemonicParsing="false" text="" />
+    <TextArea fx:id="selectArea" layoutX="257.0" layoutY="253.0" prefHeight="150.0" prefWidth="464.0" wrapText="true" />
+      <ScrollPane layoutX="256.0" layoutY="439.0" prefHeight="150.0" prefViewportHeight="150.0" prefViewportWidth="464.0" prefWidth="466.0">
+         <content>
+            <TextFlow fx:id="messageArea" prefHeight="149.0" prefWidth="451.0" />
+         </content>
+      </ScrollPane>
+  </children>
+</AnchorPane>

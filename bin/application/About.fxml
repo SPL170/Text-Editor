@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="196.0" prefWidth="337.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="35.0" layoutY="31.0" prefHeight="134.0" prefWidth="267.0" text="This is a graphical user interface option for project 1, Database. This GUI is meant to simulate the SQL MyWorkbench commands and interface options. This GUI can open, read, and save text files, display the contents of text file, and copy and paste from the text editor." textAlignment="JUSTIFY" wrapText="true" />
+  </children>
+</AnchorPane>

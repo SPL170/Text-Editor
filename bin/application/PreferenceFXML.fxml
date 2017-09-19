@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="373.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TextArea layoutX="217.0" layoutY="106.0" prefHeight="247.0" prefWidth="167.0" wrapText="true" />
+    <TextArea layoutX="419.0" layoutY="106.0" prefHeight="247.0" prefWidth="167.0" wrapText="true" />
+    <TextArea layoutX="14.0" layoutY="106.0" prefHeight="247.0" prefWidth="167.0" wrapText="true" />
+    <RadioButton layoutX="217.0" layoutY="14.0" mnemonicParsing="false" text="Bold" />
+    <RadioButton layoutX="217.0" layoutY="72.0" mnemonicParsing="false" text="Italics" />
+    <RadioButton layoutX="217.0" layoutY="42.0" mnemonicParsing="false" text="Underline" />
+    <CheckBox layoutX="14.0" layoutY="72.0" mnemonicParsing="false" text="Italics" />
+    <CheckBox layoutX="14.0" layoutY="42.0" mnemonicParsing="false" text="Underline" />
+    <CheckBox layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Bold" />
+    <Label layoutX="419.0" layoutY="14.0" text="Bold" />
+    <Label layoutX="419.0" layoutY="42.0" text="Underline" />
+    <Label layoutX="419.0" layoutY="72.0" text="Italics" />
+  </children>
+</AnchorPane>

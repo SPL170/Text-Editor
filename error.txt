@@ -1,0 +1,7 @@
+DELETE DATABASE command does not exist.
+(DELETE DATABASE elements)
+
+The command line was empty.
+()
+
+
